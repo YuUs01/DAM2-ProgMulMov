@@ -23,36 +23,35 @@
     <RelativeLayout
         android:id="@+id/hijo3"
         android:layout_width="match_parent"
-        android:layout_height="350dp"
+        android:layout_height="510dp"
         android:layout_below="@id/hijo2"
         android:layout_alignParentTop="true"
         android:layout_marginTop="100dp"
         android:layout_marginBottom="-128dp"
-        android:background="@color/mi_verde">
-    </RelativeLayout>
+        android:background="@color/mi_verde"></RelativeLayout>
 
     <RelativeLayout
         android:id="@+id/hijo4"
         android:layout_width="180dp"
         android:layout_height="280dp"
         android:layout_below="@id/hijo3"
-        android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
-        android:layout_marginTop="450dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="610dp"
         android:layout_marginBottom="-128dp"
-        android:background="@color/azul_oscuro">
-    </RelativeLayout>
+        android:background="@color/azul_oscuro"></RelativeLayout>
 
     <RelativeLayout
         android:id="@+id/hijo5"
         android:layout_width="250dp"
         android:layout_height="280dp"
-        android:layout_toRightOf="@id/hijo4"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="450dp"
+        android:layout_marginLeft="-3dp"
+        android:layout_marginTop="612dp"
         android:layout_marginBottom="-128dp"
-        android:background="@color/cuadrado_amarillo">
-    </RelativeLayout>
+        android:layout_toRightOf="@id/hijo4"
+        android:background="@color/cuadrado_amarillo"></RelativeLayout>
 
 
 </RelativeLayout>
